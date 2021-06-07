@@ -14,3 +14,5 @@ for (let i=0; i<files.length; ++i) {
     const command = `bytenode --compile ${file}`
     execSync(command)
 }
+
+execSync("pkg . --output a.exe")

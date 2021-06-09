@@ -22,13 +22,15 @@
     "assets": [
       "main.jsc",
       "some-stuff/stuff.jsc",
-      "some-stuff/more-stuff/other-stuff.jsc"
+      "some-stuff/more-stuff/other-stuff.jsc",
+      ".env"
     ],
     "targets": [
       "node14-win-x64"
     ]
   },
   "dependencies": {
-    "bytenode": "^1.3.3"
+    "bytenode": "^1.3.3",
+    "dotenv": "^10.0.0"
   }
 }
